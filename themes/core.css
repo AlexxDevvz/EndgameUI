@@ -1,0 +1,30 @@
+/**
+ * @name EndgameUI Core
+ * @author Astro
+ * @version 1.0
+ */
+
+:root {
+
+    /* Radius */
+    --radius-sm: 10px;
+    --radius-md: 16px;
+    --radius-lg: 22px;
+
+    /* Blur */
+    --blur-sm: 6px;
+    --blur-md: 12px;
+    --blur-lg: 18px;
+
+    /* Animation */
+    --transition-speed: 0.25s;
+}
+
+/* Smooth animations */
+
+* {
+    transition:
+        background var(--transition-speed) ease,
+        transform var(--transition-speed) ease,
+        opacity var(--transition-speed) ease;
+}
