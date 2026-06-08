@@ -1,0 +1,29 @@
+/**
+ * @name EndgameUI Translucent
+ * @author Astro
+ * @version 1.0
+ * @description Minimal translucent preset for EndgameUI
+ */
+
+@import url('./core.css');
+
+:root {
+
+    /* Background */
+    --app-bg: url(https://raw.githubusercontent.com/AlexxDevvz/EndgameUI/main/assets/wallpapers/translucent.jpg);
+
+    /* Accent */
+    --accent-hue: 200;
+    --accent-saturation: 85%;
+    --accent-lightness: 68%;
+    --accent-opacity: 1;
+
+    /* UI */
+    --sidebar-color: rgba(255, 255, 255, 0.08);
+    --main-content-color: rgba(255, 255, 255, 0.04);
+
+    /* Cards */
+    --card-color: rgba(255, 255, 255, 0.06);
+    --card-color-hover: rgba(255, 255, 255, 0.10);
+
+}
