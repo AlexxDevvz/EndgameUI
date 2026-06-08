@@ -1,0 +1,29 @@
+/**
+ * @name EndgameUI Tactical
+ * @author Astro
+ * @version 1.0
+ * @description Tactical glassmorphism preset for EndgameUI
+ */
+
+@import url('./core.css');
+
+:root {
+
+    /* Background */
+    --app-bg: url(https://raw.githubusercontent.com/AlexxDevvz/EndgameUI/main/assets/wallpapers/tactical.jpg);
+
+    /* Accent */
+    --accent-hue: 42;
+    --accent-saturation: 85%;
+    --accent-lightness: 58%;
+    --accent-opacity: 1;
+
+    /* UI */
+    --sidebar-color: rgba(0, 0, 0, 0.55);
+    --main-content-color: rgba(0, 0, 0, 0.35);
+
+    /* Cards */
+    --card-color: rgba(15, 15, 15, 0.40);
+    --card-color-hover: rgba(25, 25, 25, 0.50);
+
+}
